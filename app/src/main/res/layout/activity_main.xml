@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="bottom|right"
+        android:singleLine="true"
+        android:textSize="@dimen/textView"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"
+        android:orientation="horizontal"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_AC"
+            android:text="@string/ac"
+            android:textSize="@dimen/bottomsSize"/>
+
+
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_divide"
+            android:text="@string/divide"
+            android:textSize="@dimen/bottomsSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_7"
+            android:text="@string/_7"
+            android:textSize="@dimen/bottomsSize" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_8"
+            android:text="@string/_8"
+            android:textSize="@dimen/bottomsSize" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_9"
+            android:text="@string/_9"
+            android:textSize="@dimen/bottomsSize" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_multiply"
+            android:text="@string/x"
+            android:textSize="@dimen/bottomsSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_4"
+            android:text="@string/_4"
+            android:textSize="@dimen/bottomsSize" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_5"
+            android:text="@string/_5"
+            android:textSize="@dimen/bottomsSize" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_6"
+            android:text="@string/_6"
+            android:textSize="@dimen/bottomsSize" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_minus"
+            android:text="@string/minus"
+            android:textSize="@dimen/bottomsSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_1"
+            android:text="@string/_1"
+            android:textSize="@dimen/bottomsSize" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_2"
+            android:text="@string/_2"
+            android:textSize="@dimen/bottomsSize" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_3"
+            android:text="@string/_3"
+            android:textSize="@dimen/bottomsSize" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_plus"
+            android:text="@string/plus"
+            android:textSize="@dimen/bottomsSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"
+        android:orientation="horizontal"
+        >
+
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_0"
+            android:text="@string/_0"
+            android:textSize="@dimen/bottomsSize" />
+
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/MyCoolStyle"
+            android:id="@+id/button_equal"
+            android:text="@string/equal"
+            android:textSize="@dimen/bottomsSize" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
